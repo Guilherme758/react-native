@@ -23,7 +23,9 @@ export const styles = StyleSheet.create({
     boxBottom: {
         height: 200,
         width: "100%",
-        backgroundColor: "blue",
+        alignItems: "center",
+        justifyContent: "center",
+        // backgroundColor: "blue",
     },
     logo: {
         height: 80,
@@ -56,5 +58,14 @@ export const styles = StyleSheet.create({
         height: "100%",
         width: "90%",
         borderRadius: 40,
+    },
+    buttonEntrar: {
+        width: 200,
+        height: 50,
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: themes.colors.lightGray,
+        borderRadius: 40,
+        borderWidth: 1,
     }
 });
